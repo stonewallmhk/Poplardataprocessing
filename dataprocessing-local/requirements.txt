@@ -1,0 +1,11 @@
+# Core GCP libraries
+google-cloud-firestore==2.19.0
+google-cloud-secret-manager==2.22.0
+
+# HTTP requests — Play-Cricket API calls
+requests==2.32.3
+
+# Cloud Functions framework — required for GCP deployment, optional locally
+# Install locally only if you want to test the HTTP handler:
+#   pip install functions-framework
+functions-framework==3.8.2
